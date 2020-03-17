@@ -32,11 +32,7 @@ namespace WebCrawler_1
                     Thread.Sleep(1000);
                     continue;
                 }
-             //   System.Diagnostics.Debug.WriteLine(link.URL + "   on thread: " + Thread.CurrentThread.ManagedThreadId);
-
                 UriBuilder ub = new UriBuilder(link.URL);
-
-
 
                 //Get URLS
                 HtmlWeb hw = new HtmlWeb();
